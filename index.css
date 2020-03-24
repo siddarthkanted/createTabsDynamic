@@ -1,0 +1,32 @@
+.body{
+    background-color:green;
+    margin:0;
+}
+
+.navigationList {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: wheat;
+    padding: 0
+}
+
+.primaryTab {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.primaryTab:hover {
+    cursor: pointer;
+}
+
+.secondaryTab {
+    display: none;
+    list-style: none;
+}
+
+.showSecondaryTab {
+    display: block;
+    position: absolute;
+    background-color: red;
+}
